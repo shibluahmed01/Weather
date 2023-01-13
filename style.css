@@ -27,6 +27,7 @@
 
 .country {
     background-image: url(img/Backround.jpg);
+    font-family: arial, sans-serif;
 }
 
 #submit-btn {
