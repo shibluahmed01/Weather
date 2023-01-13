@@ -13,7 +13,7 @@ submitBtn.addEventListener("click", function() {
             const description = data.weather[0].description;
 
             document.getElementById("city").innerText = cityName;
-            document.getElementById("temp").innerText = temp.toFixed(2);
+            document.getElementById("temp").innerText = temp.toFixed(2) + " ℃";
             document.getElementById("des").innerText = description;
         });
 });
