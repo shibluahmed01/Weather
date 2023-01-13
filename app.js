@@ -16,4 +16,5 @@ submitBtn.addEventListener("click", function() {
             document.getElementById("temp").innerText = temp.toFixed(2) + " ℃";
             document.getElementById("des").innerText = description;
         });
+    document.getElementById("input-btn").value = "";
 });
